@@ -1,0 +1,1 @@
+export const Progress = ['2 weeks', '1 month', '5 hours', '15 minutes', '2 months']

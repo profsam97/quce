@@ -13,3 +13,14 @@ export type DashboardT = {
     description: string;
     icon: JSX.Element;
 }
+export type CustomerT = {
+    id: string;
+    name: string;
+    customerId: string;
+    category: string;
+    principal: string;
+    userAlias: string;
+    userAliasSecondary: string;
+    status: string;
+    lastUpdated: string;
+}

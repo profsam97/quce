@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import { Sidebar } from "./components/layouts/Sidebar";
 import { Header } from "./components/layouts/Header";
 import { Dashboard } from "./components/Dashboard";
+import { Nintendo } from "./pages/Nintendo";
+import { NintendoNewRequest } from "./pages/NintendoNewRequest";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Navigate to="/dashboard" replace />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/nintendo" element={<Nintendo />} />
+              <Route path="/create-form" element={<NintendoNewRequest />} />
             </Routes>
           </main>
         </div>
