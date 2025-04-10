@@ -1,11 +1,14 @@
 # quce - Project Documentation
 
+You can access the deployed version here: [quce.vercel.app](https://quce.vercel.app/dashboard)
+
 ## 1. Project Description
 
 `quce` is a web application built with React, Vite, and TypeScript. It features:
 
-*   A main **Dashboard** section.
-*   A dedicated **Nintendo** section for displaying data in a table, creating new requests via a form.
+*   A main **Dashboard** section. click on the Nintendo Button to navigate to the nintendo page
+*   A dedicated **Nintendo** section for displaying data in a table.
+*   A Page  for creating new requests via a form.
 
 
 ## 2. Design & UI
@@ -49,7 +52,7 @@ Follow these steps to set up, test and run the project locally:
     ```bash
     npm run dev
     ```
-    This will start the application in your web browser at `http://localhost:5173` 
+    This will start the application in your web browser at [localhost:5173](http://localhost:5173).
 
 
 5.  **Test the application:**
