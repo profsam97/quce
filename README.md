@@ -36,7 +36,7 @@ Follow these steps to set up, test and run the project locally:
 
 2.  **Clone the Repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/profsam97/quce.git
     cd quce
     ```
 
