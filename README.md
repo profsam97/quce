@@ -32,7 +32,7 @@
 Follow these steps to set up, test and run the project locally:
 
 1.  **Prerequisites:**
-    *   Ensure you have Node.js (which includes npm) installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
+    *   Ensure you have Node.js (which also includes npm) installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
 
 2.  **Clone the Repository:**
     ```bash
