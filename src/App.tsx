@@ -4,6 +4,7 @@ import { Header } from "./components/layouts/Header";
 import { Dashboard } from "./components/Dashboard";
 import { Nintendo } from "./pages/Nintendo";
 import { NintendoNewRequest } from "./pages/NintendoNewRequest";
+import { Toaster } from "./components/ui/sonner";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             </Routes>
           </main>
         </div>
+        <Toaster />
       </div>
     </Router>
   );

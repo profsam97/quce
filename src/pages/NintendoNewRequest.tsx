@@ -5,8 +5,10 @@ import { RadioGroup, RadioGroupItem } from "../components/ui/radio-group";
 import { Label } from "../components/ui/label";
 import NintendoHeader from "../components/nintendo/NintendoHeader";
 import { Progress } from "../lib/data/progress";
+import { useNavigate } from "react-router-dom";
 
 export function NintendoNewRequest() {
+  const navigate = useNavigate()
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <NintendoHeader newForm={false}  />
@@ -143,7 +145,7 @@ export function NintendoNewRequest() {
             </div>
             {/* Action Buttons */}
             <div className="flex justify-end space-x-4 mt-10">
-              <Button variant="outline" className="px-6 py-2 text-base">Cancel</Button>
+              <Button variant="outline" className="px-6 py-2 text-base" onClick={() => navigate('/nintendo')}>Cancel</Button>
               <Button className="bg-[#A93636] hover:bg-red-700 text-white px-6 py-2 text-base">Submit Request</Button>
             </div>
           </div>
