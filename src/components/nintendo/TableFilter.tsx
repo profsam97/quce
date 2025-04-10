@@ -37,7 +37,6 @@ export function TableFilter() {
                 Request
               </Button>
             </div>
-            us-east1-b
           </div>
           
           <div className="flex">
